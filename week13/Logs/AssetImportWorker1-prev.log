@@ -1,0 +1,2121 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.8f1c1 (4ec8ee1b2212) revision 5163246'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2022.3.8f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Project/week13
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50288
+Successfully changed project path to: D:/Unity Project/week13
+D:/Unity Project/week13
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3948] Host "[IP] 192.168.244.1 [Port] 0 [Flags] 2 [Guid] 2828651486 [EditorId] 2828651486 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6TLNR81J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3948] Host "[IP] 192.168.244.1 [Port] 0 [Flags] 2 [Guid] 2828651486 [EditorId] 2828651486 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-6TLNR81J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1c1 (4ec8ee1b2212)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Project/week13/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.8f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009943 seconds.
+- Loaded All Assemblies, in  0.383 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 689ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (244ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (73.4 KB). Loaded Objects now: 3585.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 3.729300 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.079900 ms MarkObjects: 3.234300 ms  DeleteObjects: 0.181000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2236.577431 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Fonts/Geo-Regular.ttf
+  artifactKey: Guid(2383f538bfcf9cc45ad0b55bcba52410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Fonts/Geo-Regular.ttf using Guid(2383f538bfcf9cc45ad0b55bcba52410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507e386457044304b6c2f2991b525193') in 0.093969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 24.351513 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/ItemSlot.prefab
+  artifactKey: Guid(6c7afed0b4d56a047a9a515074a2e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/ItemSlot.prefab using Guid(6c7afed0b4d56a047a9a515074a2e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e38d7eae0f71067b334b3a5ea8abfe') in 0.009274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Player.prefab
+  artifactKey: Guid(ab5f05eb414b65f4f9c285f785c1dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Player.prefab using Guid(ab5f05eb414b65f4f9c285f785c1dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1617121904df14e92b3bcfb2a212b276') in 0.198822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 28.548472 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/PutGlassesOn.fbx
+  artifactKey: Guid(335e9552995619942b842651295ac977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/PutGlassesOn.fbx using Guid(335e9552995619942b842651295ac977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c844bf939397e0480c414ce8a2e1a917') in 0.286938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 161
+========================================================================
+Received Import Request.
+  Time since last request: 39.184587 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/GlassesMaterial.mat
+  artifactKey: Guid(5a68483ba9764354ead16db19e43947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/GlassesMaterial.mat using Guid(5a68483ba9764354ead16db19e43947b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df59b0bf1a59909658a3d207265cbcac') in 0.008772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityCamera.mat
+  artifactKey: Guid(3f386ec83100d844b94a7a5b79ffb81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityCamera.mat using Guid(3f386ec83100d844b94a7a5b79ffb81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9336fd0f3f58e318d04a4b66e93e86') in 0.010745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SleepyZ.mat
+  artifactKey: Guid(1a154997a08254f4ab6fb216e582bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SleepyZ.mat using Guid(1a154997a08254f4ab6fb216e582bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412c2dce7e72fea4a8c40d061a7cb6bd') in 0.027991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.669441 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/CoffeeBotGlass.mat
+  artifactKey: Guid(65eb6d8bd532ff24790e8810799fd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/CoffeeBotGlass.mat using Guid(65eb6d8bd532ff24790e8810799fd82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be2d66fa1366d2126f33f6be171aa7') in 0.100117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.648042 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketAircon.mat
+  artifactKey: Guid(895e35e06e2d8fc448bb48e11a72ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketAircon.mat using Guid(895e35e06e2d8fc448bb48e11a72ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c3f6d1be4f994a6e774256c116d5d1') in 0.007910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketCrates.mat
+  artifactKey: Guid(6811dc329162c624690784272c6a74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketCrates.mat using Guid(6811dc329162c624690784272c6a74fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6261922b4e3ec7de447752e3037c2188') in 0.009247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFish.mat
+  artifactKey: Guid(329c7db3030cc1d418a9f416eaed765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFish.mat using Guid(329c7db3030cc1d418a9f416eaed765f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b08a3b53c79f242fc0da514324301e') in 0.007445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFloorTileSand.mat
+  artifactKey: Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFloorTileSand.mat using Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531b9d304773e9011b6f986776a09f4a') in 0.007691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002351 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketMosaicTiles.mat
+  artifactKey: Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketMosaicTiles.mat using Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cdd03835a1053bb4fa9a60cad66dfa') in 0.008166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000847 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketPots.mat
+  artifactKey: Guid(baa9de290ac47c74b8ce1db516ff702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketPots.mat using Guid(baa9de290ac47c74b8ce1db516ff702e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c347ac3a46835c6d49e552508dceb2d8') in 0.007894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000891 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSecurityDoor.mat
+  artifactKey: Guid(21f4fccb919166745b81be58b6c766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSecurityDoor.mat using Guid(21f4fccb919166745b81be58b6c766a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42a00186a215c8ddedf4c6e44a52bf2') in 0.008133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001130 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSlerp.mat
+  artifactKey: Guid(364a48ba02c665f4688dacc733734f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSlerp.mat using Guid(364a48ba02c665f4688dacc733734f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369ec1d93ba26fd88cdbaeff422569ea') in 0.008989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSpiceBags.mat
+  artifactKey: Guid(4ec2d68a2ff08f94e982603197685a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSpiceBags.mat using Guid(4ec2d68a2ff08f94e982603197685a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f3f8caa8a9490682ca2873cb745b71') in 0.010996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallStone.mat
+  artifactKey: Guid(841101597fac029489d23f6adc912343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallStone.mat using Guid(841101597fac029489d23f6adc912343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8cb4b0dff0753cfd8cc5e908cae145') in 0.011851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallMetal.mat
+  artifactKey: Guid(e59530a749010fc4fb744508277ac143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallMetal.mat using Guid(e59530a749010fc4fb744508277ac143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385126aecaa268e8f289e7b9fe2cd0f8') in 0.008417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.936484 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/LazerWall.mat
+  artifactKey: Guid(f557a0a59fc40df4fae274e5c219b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/LazerWall.mat using Guid(f557a0a59fc40df4fae274e5c219b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6881670c430fa19ddec82ca6969cfcc') in 0.023973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomDesk.mat
+  artifactKey: Guid(e3642bc2b1be7f34fbe8086b1060ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomDesk.mat using Guid(e3642bc2b1be7f34fbe8086b1060ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbe47e0c9d117ececa0efc9c65d8def') in 0.008575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomChair.mat
+  artifactKey: Guid(b4c492d80ced0be4ca2633f2554f1297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomChair.mat using Guid(b4c492d80ced0be4ca2633f2554f1297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac17834ec973ad560c3e92f67b68927e') in 0.007856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat
+  artifactKey: Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat using Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0cd5988ace0d9a7164553a34abc006') in 0.006163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomMagazines.mat
+  artifactKey: Guid(5b59a3babc1a0264f9a031cd36d8eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomMagazines.mat using Guid(5b59a3babc1a0264f9a031cd36d8eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be3b1f541477147dd3e33c1f5164b56') in 0.007145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomPotPlant.mat
+  artifactKey: Guid(a914eadc484be8c46959df648c426130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomPotPlant.mat using Guid(a914eadc484be8c46959df648c426130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2948fdaa8f964c54bcbcfef31d827a1d') in 0.007508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomScreen.mat
+  artifactKey: Guid(cd56fd16d2fb5bf4aaf73ff3cb098968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomScreen.mat using Guid(cd56fd16d2fb5bf4aaf73ff3cb098968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9110c7257afca7de6a23cf77755d2a1') in 0.005692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomTrim.mat
+  artifactKey: Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomTrim.mat using Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767384fb952e9f6004420f02b7e00e50') in 0.007058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrim.mat
+  artifactKey: Guid(ff3385cc426b6ee47adfa876571fcafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrim.mat using Guid(ff3385cc426b6ee47adfa876571fcafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb03df56bc2c4796215b19bdf037f05') in 0.006887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallVents.mat
+  artifactKey: Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallVents.mat using Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269a48166d7598e30c1563891fb75653') in 0.011048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsRed.mat
+  artifactKey: Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsRed.mat using Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f71f544c67e1550ddb9ea62556a039a') in 0.010070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat
+  artifactKey: Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat using Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ac20c1fe22d464ddf6caef3b0cf7d9') in 0.025709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomVent.mat
+  artifactKey: Guid(672c629381309834cb348cf9b63f30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomVent.mat using Guid(672c629381309834cb348cf9b63f30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a416bd8ad50fff167651c4e72c7947') in 0.007529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomScreenBorder.mat
+  artifactKey: Guid(50b075c92c0718d43ba136105f9dd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomScreenBorder.mat using Guid(50b075c92c0718d43ba136105f9dd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19da8fc92be4ee573ca74433faada7a') in 0.010167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsGrey.mat
+  artifactKey: Guid(c663c1ef3240d9b419354431013f17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsGrey.mat using Guid(c663c1ef3240d9b419354431013f17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641d0d8723b082dc5bdda6dda39c7128') in 0.008121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.156589 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/CoffeeBotSigns.fbx
+  artifactKey: Guid(8afaf1aee63329944a36d7e8b7a6bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/CoffeeBotSigns.fbx using Guid(8afaf1aee63329944a36d7e8b7a6bae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95590858858896dfbe89c81019b7108') in 0.017232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/MarketCollision.FBX
+  artifactKey: Guid(e582ad25494856c48a62bb7a4e4b4143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/MarketCollision.FBX using Guid(e582ad25494856c48a62bb7a4e4b4143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9676dbb7daafed28074835c521b638') in 0.012044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/Player.fbx
+  artifactKey: Guid(9d9569a11a06f464bb9a5618bdd51bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/Player.fbx using Guid(9d9569a11a06f464bb9a5618bdd51bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31198bac6ff48c987e61252c641813a2') in 0.036207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/SecurityRoomEnvironment.FBX
+  artifactKey: Guid(6544875a22773ee408686dd0c78d9c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/SecurityRoomEnvironment.FBX using Guid(6544875a22773ee408686dd0c78d9c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d764782cc4631a1cf7f3ba8e8d5eb4') in 0.282983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 149
+========================================================================
+Received Import Request.
+  Time since last request: 188.122757 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AdventureGameSample_Third-PartyNotice.txt
+  artifactKey: Guid(9169f95a54285d24fa4a4a6b59e88f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AdventureGameSample_Third-PartyNotice.txt using Guid(9169f95a54285d24fa4a4a6b59e88f49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88d7d96af15262e6237a3906cbc97150') in 0.078219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecurityRoomScreen.anim
+  artifactKey: Guid(c74cd37dcaaf102469a7cedb7dc19a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecurityRoomScreen.anim using Guid(c74cd37dcaaf102469a7cedb7dc19a38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f024218e14867901e62c50260f90c9fa') in 0.026637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityCamera.mat
+  artifactKey: Guid(3f386ec83100d844b94a7a5b79ffb81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityCamera.mat using Guid(3f386ec83100d844b94a7a5b79ffb81d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93089170ea5ecefea5768f4e2b78181b') in 0.012020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/CoffeCupAlbedo.tif
+  artifactKey: Guid(d5f9621718188bf47af2055248c22f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/CoffeCupAlbedo.tif using Guid(d5f9621718188bf47af2055248c22f1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56ab887543294eba4206d9cdfee51fc0') in 0.044079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/SharkmanIdleTalk.fbx
+  artifactKey: Guid(2351c32753509ec4f8e7908b04f78edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/SharkmanIdleTalk.fbx using Guid(2351c32753509ec4f8e7908b04f78edf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ab3692d4445bc11322480ec85328e0e') in 0.072098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 126
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Interactable.prefab
+  artifactKey: Guid(d48734bd22479a14cb1a52b40aa09db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Interactable.prefab using Guid(d48734bd22479a14cb1a52b40aa09db4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43ebafb4cd53adf5c234107a5ed88e43') in 0.021750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/Glasses.png
+  artifactKey: Guid(e2846dbbb26170a438d7da1d69f7d05e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/Glasses.png using Guid(e2846dbbb26170a438d7da1d69f7d05e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cd09f64d9828c675e6531ac159fc0f9') in 0.019769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/CoffeebotMakeCoffeeWithCup.anim
+  artifactKey: Guid(bb7fa01900e018b4cba3b01cc242f400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/CoffeebotMakeCoffeeWithCup.anim using Guid(bb7fa01900e018b4cba3b01cc242f400) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea45efb3d98aa19912134a68d4241c29') in 0.021147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Coin.mat
+  artifactKey: Guid(f6e0cf92e2e51f3439465b23ae50a9b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Coin.mat using Guid(f6e0cf92e2e51f3439465b23ae50a9b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4936e0e746828af49dd3895eaac215e3') in 0.005281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/MarketCollision.FBX
+  artifactKey: Guid(e582ad25494856c48a62bb7a4e4b4143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/MarketCollision.FBX using Guid(e582ad25494856c48a62bb7a4e4b4143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faf4c8e9f58c553e01705eb8c4c62c63') in 0.015942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/Player.fbx
+  artifactKey: Guid(9d9569a11a06f464bb9a5618bdd51bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/Player.fbx using Guid(9d9569a11a06f464bb9a5618bdd51bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7643ffdf0292b9dd0a8cbace9382592') in 0.024368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Run.fbx
+  artifactKey: Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Run.fbx using Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47af3957e6931770da0bb2a7d49a3890') in 0.081733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/InventorySlotBG.png
+  artifactKey: Guid(12870f9075386c147ba1bbabcaaaf033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/InventorySlotBG.png using Guid(12870f9075386c147ba1bbabcaaaf033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43f6335a722671371ffed2ef5339e062') in 0.019930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/Disguise.fbx
+  artifactKey: Guid(54a2e3e0f3738864f9472522c0bd66f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/Disguise.fbx using Guid(54a2e3e0f3738864f9472522c0bd66f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4468fee9a38c167855d005360517ed9d') in 0.019607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/SecurityRoom.prefab
+  artifactKey: Guid(8902cc0c7910bcd4ab3ccacb67555809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/SecurityRoom.prefab using Guid(8902cc0c7910bcd4ab3ccacb67555809) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4d2feb7d15231de4113895e30e8a75c') in 0.041414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 446
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/IdleBlender.fbx
+  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/IdleBlender.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7a3b624d72af5d565217a51e074dcb') in 0.068475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityCameraMarket.controller
+  artifactKey: Guid(3f033d1d677ec21438f98252d9f13d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityCameraMarket.controller using Guid(3f033d1d677ec21438f98252d9f13d73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fbc483258bf8dfab181d7d296eb292f') in 0.004404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/DoorSlide.ogg
+  artifactKey: Guid(ebdaadc1993914f48991efbeda5ed08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/DoorSlide.ogg using Guid(ebdaadc1993914f48991efbeda5ed08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b37df1970905f9d700c1dfa51ebdf53f') in 0.056776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityCamera.controller
+  artifactKey: Guid(88ff506200557174fa0cec5f6f63094d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityCamera.controller using Guid(88ff506200557174fa0cec5f6f63094d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '660e926acc8a0923fe0f49f676ccb39a') in 0.004823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/SaveData/SecurityRoomSaveData.asset
+  artifactKey: Guid(270c372e873657242ab00b2f602b468f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/SaveData/SecurityRoomSaveData.asset using Guid(270c372e873657242ab00b2f602b468f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dd08cdb3cc5e3400609a2a69dae82de') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/SaveData/MarketSaveData.asset
+  artifactKey: Guid(48d6089c54f7ceb42b1f63276fdc2247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/SaveData/MarketSaveData.asset using Guid(48d6089c54f7ceb42b1f63276fdc2247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa1ce07bcd6e794940028332f9da23d2') in 0.005316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/MarketFishSign.anim
+  artifactKey: Guid(27918b0cb742a114eac6eb4197f13a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/MarketFishSign.anim using Guid(27918b0cb742a114eac6eb4197f13a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d17f68f38979971053ba0fd3dbecb47') in 0.004137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Market.prefab
+  artifactKey: Guid(3651ed03b8d254a478d9747447d9f2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Market.prefab using Guid(3651ed03b8d254a478d9747447d9f2f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42e511f914d0485e41433be571f57412') in 0.031307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1127
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/MarketEnvironment.FBX
+  artifactKey: Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/MarketEnvironment.FBX using Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4d7d6dc34183c8c4aac264c4f9bf44b') in 0.088775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 219
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Fonts/FontLicense.txt
+  artifactKey: Guid(01925231685fa424d9449a5c20ab6d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Fonts/FontLicense.txt using Guid(01925231685fa424d9449a5c20ab6d7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3012154d804a81381e29990b7747d914') in 0.002802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/CoffeeCup.fbx
+  artifactKey: Guid(287f138f9d2f6d642a97ec0483afde5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/CoffeeCup.fbx using Guid(287f138f9d2f6d642a97ec0483afde5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0be5f1a7eb39710768744080ff6a3a89') in 0.012965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/InfoBoard.png
+  artifactKey: Guid(df383688f53ed894e8fd0b4f14ddebb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/InfoBoard.png using Guid(df383688f53ed894e8fd0b4f14ddebb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '886fbf6fc326a78cff10b63cd5b020af') in 0.017915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/Coffee.png
+  artifactKey: Guid(0d6887c5e31a67d4c9c3988379769ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/Coffee.png using Guid(0d6887c5e31a67d4c9c3988379769ec4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cddeb0972680603d3d4787d9b10af464') in 0.020484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecurityRoomInfoBoard.anim
+  artifactKey: Guid(1200044f35df5ec43a9f8b62a56e91fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecurityRoomInfoBoard.anim using Guid(1200044f35df5ec43a9f8b62a56e91fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e07e0c382d6b5aded717106333d0cb85') in 0.005797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/SecurityRoom.unity
+  artifactKey: Guid(fa8464330437a6c439e767c377bbee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scenes/SecurityRoom.unity using Guid(fa8464330437a6c439e767c377bbee1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '448e7852beaf7bcb60862e91749d59aa') in 0.003921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/DisguiseAlbedo.tif
+  artifactKey: Guid(e2854c6a2eccc6945803441e7f7ab239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/DisguiseAlbedo.tif using Guid(e2854c6a2eccc6945803441e7f7ab239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd6c5a6fdef84306f2c3221109b78720') in 0.016971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecuirtyCameraIdle02.anim
+  artifactKey: Guid(ba6fedde29286cc48a43dfdbf5ce6bc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecuirtyCameraIdle02.anim using Guid(ba6fedde29286cc48a43dfdbf5ce6bc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2e5a3e645dd6fc9a7b5780dad3fd503') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/BirdGlassesCutscene.fbx
+  artifactKey: Guid(27dc1f41f9a3fad46a08a615f1730ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/BirdGlassesCutscene.fbx using Guid(27dc1f41f9a3fad46a08a615f1730ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcd42d81625aab02810952e66ef4d831') in 0.044715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 75
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecuirtyCameraIdle.anim
+  artifactKey: Guid(3531f9e198549554e92afa77a6a17533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/SecuirtyCameraIdle.anim using Guid(3531f9e198549554e92afa77a6a17533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bab8eb32be33bb4d62587678249f47b4') in 0.006006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Items/Coin.asset
+  artifactKey: Guid(d24caee896ca7114aafaf607d9760c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Items/Coin.asset using Guid(d24caee896ca7114aafaf607d9760c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f372f4009866db8eafb55a7843d8d02e') in 0.003147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/Pickup.ogg
+  artifactKey: Guid(154cdb10bf6550c4e9ff4038ff2a660d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/Pickup.ogg using Guid(154cdb10bf6550c4e9ff4038ff2a660d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cab55a0c06514d3294c827d4afd2aca') in 0.051554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Items/Fish.asset
+  artifactKey: Guid(f75f3ff4d2e91964bb8f1b9d1ba6c1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Items/Fish.asset using Guid(f75f3ff4d2e91964bb8f1b9d1ba6c1f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff0da1ab4fe6ff4bf54e80e699dd5c86') in 0.004510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/InfoBoard 1.controller
+  artifactKey: Guid(20628f9b3e1cbd64a9816e3a913f10ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/InfoBoard 1.controller using Guid(20628f9b3e1cbd64a9816e3a913f10ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4742c871342494023baa677f417a1fd') in 0.008022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/SecurityRoomHologramDNA.FBX
+  artifactKey: Guid(7f436a69c8da2e64383bee548359ab14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/SecurityRoomHologramDNA.FBX using Guid(7f436a69c8da2e64383bee548359ab14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f064000d78b6cce1c1a1061be913033') in 0.011114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityRoomScreen.controller
+  artifactKey: Guid(b87f7f780fdf6e942a14e697e11ac26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/SecurityRoomScreen.controller using Guid(b87f7f780fdf6e942a14e697e11ac26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19d5a172a6739ce63bca897bb9965cee') in 0.003925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Player.prefab
+  artifactKey: Guid(ab5f05eb414b65f4f9c285f785c1dfad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/Player.prefab using Guid(ab5f05eb414b65f4f9c285f785c1dfad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56374a685751c1f8a127293a832116e3') in 0.022075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 206
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallMetal.mat
+  artifactKey: Guid(e59530a749010fc4fb744508277ac143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallMetal.mat using Guid(e59530a749010fc4fb744508277ac143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f602b9eec3b20595975e5b127a39805b') in 0.007327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFishSelectable.mat
+  artifactKey: Guid(08f4e3363e393374ca0cd78cf5c5a14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFishSelectable.mat using Guid(08f4e3363e393374ca0cd78cf5c5a14a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '926d74ec84b0f4bc620de5c09335865d') in 0.009116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/LazerWall.mat
+  artifactKey: Guid(f557a0a59fc40df4fae274e5c219b457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/LazerWall.mat using Guid(f557a0a59fc40df4fae274e5c219b457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '556b451e61b4b3f797c82da4dabed9e6') in 0.006130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFish.mat
+  artifactKey: Guid(329c7db3030cc1d418a9f416eaed765f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketFish.mat using Guid(329c7db3030cc1d418a9f416eaed765f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '712462a344f3af422680553667174a1e') in 0.005498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/BlackUnlit1.mat
+  artifactKey: Guid(01f421d8bc530244086ff91432577f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/BlackUnlit1.mat using Guid(01f421d8bc530244086ff91432577f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '307f0465f088ac0821d0ff10e58adbbe') in 0.005049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSigns.mat
+  artifactKey: Guid(71e4cc976fb954d489e47c27ba9c6950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSigns.mat using Guid(71e4cc976fb954d489e47c27ba9c6950) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adee4d6aa77ab9ffe010db2e72ea8fc9') in 0.008282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketStalls.mat
+  artifactKey: Guid(60d569cced1f71b44b6922c49e5bb4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketStalls.mat using Guid(60d569cced1f71b44b6922c49e5bb4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd480d848edb8d78614581124c227387') in 0.009662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSmallTable.mat
+  artifactKey: Guid(7d219517a6224674483d884585bad268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketSmallTable.mat using Guid(7d219517a6224674483d884585bad268) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98e8a4e7ef0d74288b8348803989a806') in 0.006715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketBollard.mat
+  artifactKey: Guid(ca130c123aa674f48bd5de8d3f8784b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketBollard.mat using Guid(ca130c123aa674f48bd5de8d3f8784b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9102e9f419b1c86f2130f266b43b5d5e') in 0.007444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/Player.mat
+  artifactKey: Guid(38bcda417e203744d89feb1e91554572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/Player.mat using Guid(38bcda417e203744d89feb1e91554572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '874933d4e026584684f0c3773fce1946') in 0.007230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/SharkmanMaterial.mat
+  artifactKey: Guid(d788c05ebea28de4db00723fccb2e638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/SharkmanMaterial.mat using Guid(d788c05ebea28de4db00723fccb2e638) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12779ee0802570b72870f2b538cbdba5') in 0.009553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/MarketCoffeeSign.controller
+  artifactKey: Guid(95cb2527fc9701e45a7576eb6da8c962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/MarketCoffeeSign.controller using Guid(95cb2527fc9701e45a7576eb6da8c962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4612148c6513fc9c009a9cc430683a3') in 0.003939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/Icon.png
+  artifactKey: Guid(0f2b736c8ab8e324a9038a73543ca6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/Icon.png using Guid(0f2b736c8ab8e324a9038a73543ca6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a73184c6834c90d88c671b14e8a4840') in 0.016607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/Screen01.png
+  artifactKey: Guid(2dd295cfd53132440878c3c7fd36cdcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/Screen01.png using Guid(2dd295cfd53132440878c3c7fd36cdcd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffb81342053bc86089784ea931bf4246') in 0.015670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketMosaicTiles.mat
+  artifactKey: Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketMosaicTiles.mat using Guid(99bd920f43dd23e478029c6318bf5bbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0e22d9a63436a79a2bad7d642ee597b') in 0.005173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityGateGlow.mat
+  artifactKey: Guid(122e9cd5ec976eb42bc7f99a4512d40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityGateGlow.mat using Guid(122e9cd5ec976eb42bc7f99a4512d40f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be0fd1bdbf7cb8e968941c383a5c1e20') in 0.006490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/RedHerring.png
+  artifactKey: Guid(741b6eb3ed1c5d24482e517a0841dce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/RedHerring.png using Guid(741b6eb3ed1c5d24482e517a0841dce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33394224420a2c6e7df34fa99fa6ca93') in 0.018294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Prefabs/ItemSlot.prefab
+  artifactKey: Guid(6c7afed0b4d56a047a9a515074a2e83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Prefabs/ItemSlot.prefab using Guid(6c7afed0b4d56a047a9a515074a2e83f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c0f1c9d45e8805ec0a42fab111e6c47') in 0.006169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/DNA.png
+  artifactKey: Guid(f3dc633e1017a28448b3a31383189740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/DNA.png using Guid(f3dc633e1017a28448b3a31383189740) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13f85818028b61b473fe50ac85be9f3b') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketOldTech.mat
+  artifactKey: Guid(0388f2d5fd84c014dbb18d851a95c1bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketOldTech.mat using Guid(0388f2d5fd84c014dbb18d851a95c1bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bd07865d2e6eafbeacb2aaabbd9b7f9') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/PowerDownLaserGrid.ogg
+  artifactKey: Guid(28b6ecbb67d75a743be188695bc54261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/PowerDownLaserGrid.ogg using Guid(28b6ecbb67d75a743be188695bc54261) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a62390b8ac5aaadf7db49d3e1a0228af') in 0.061706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/MarketSettings.lighting
+  artifactKey: Guid(383bdb66da4fd455b82318448d056ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scenes/MarketSettings.lighting using Guid(383bdb66da4fd455b82318448d056ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bcc0f5e9af12f5ece90464eccc020a6') in 0.010191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/MarketCoffeeSign.anim
+  artifactKey: Guid(e501ab80b4f0d414c9543265a2f2c655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Environment/MarketCoffeeSign.anim using Guid(e501ab80b4f0d414c9543265a2f2c655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b3689b14a93a32b9241042384f10c8d') in 0.004715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SleepyZ.mat
+  artifactKey: Guid(1a154997a08254f4ab6fb216e582bc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SleepyZ.mat using Guid(1a154997a08254f4ab6fb216e582bc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e714b6a41197ce61ff6fc95fbc2e82de') in 0.004789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketPriceTags.mat
+  artifactKey: Guid(8c9652377256a5d41bde897da527a3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketPriceTags.mat using Guid(8c9652377256a5d41bde897da527a3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64a523abaf5eb8c5d0a57a8eae24ff80') in 0.007878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/DNA.controller
+  artifactKey: Guid(6ca591a0a69af17479851be4d3528e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/Environment/DNA.controller using Guid(6ca591a0a69af17479851be4d3528e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '820da03e9ff02a109f152efae8beeb1a') in 0.003784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/CustomerIdle.fbx
+  artifactKey: Guid(33113e3691f1fc842a04491169555506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/CustomerIdle.fbx using Guid(33113e3691f1fc842a04491169555506) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd560e7b681a4cffa09c56a63e8985a26') in 0.036924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallStone.mat
+  artifactKey: Guid(841101597fac029489d23f6adc912343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketWallStone.mat using Guid(841101597fac029489d23f6adc912343) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698be6da432025940512c29fc63bf2f7') in 0.006293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Models/Customer.fbx
+  artifactKey: Guid(9e42500670bb47f4d99af2fa8a64f882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Models/Customer.fbx using Guid(9e42500670bb47f4d99af2fa8a64f882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e9309305cafbf6af5b1f00fb16ec70f') in 0.020511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 146
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/CoffeBotCover.mat
+  artifactKey: Guid(255f1dad6693d9f4188b911d81ea50ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Characters/CoffeBotCover.mat using Guid(255f1dad6693d9f4188b911d81ea50ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0119cbc256d9a7e08061f3ab974023f5') in 0.008909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/NPC/SecondHandSalesman.controller
+  artifactKey: Guid(7a1d5c6243235744c85ee25e5ea03aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/NPC/SecondHandSalesman.controller using Guid(7a1d5c6243235744c85ee25e5ea03aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e50fc3c89f69054e3a74ae438fe84bd') in 0.004637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketChairs.mat
+  artifactKey: Guid(3f196f5aa004d894c81b14bfba41ac27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/Market/MarketChairs.mat using Guid(3f196f5aa004d894c81b14bfba41ac27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83abd35b6a94ceaa32f5e8455b6fe8aa') in 0.008233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/Ambient/MarketAmbient.ogg
+  artifactKey: Guid(2133d76a50380f84b8c2275c2f348c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/Ambient/MarketAmbient.ogg using Guid(2133d76a50380f84b8c2275c2f348c29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bf1735cced1fe5f367ca26fef5d5c27') in 0.053049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Fonts/Geo-Regular.ttf
+  artifactKey: Guid(2383f538bfcf9cc45ad0b55bcba52410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Fonts/Geo-Regular.ttf using Guid(2383f538bfcf9cc45ad0b55bcba52410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e29981356b105d962592ec827da2939') in 0.008214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animators/NPC/Customer.controller
+  artifactKey: Guid(2238c85918cd97c45a8b66670de76d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animators/NPC/Customer.controller using Guid(2238c85918cd97c45a8b66670de76d63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9531d776b96862b8e7373eaaeb0b86f0') in 0.004789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/SecondHandSalesmanTalk.fbx
+  artifactKey: Guid(60100f1c1f843e446a3ffe008e517e8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/NPC/SecondHandSalesmanTalk.fbx using Guid(60100f1c1f843e446a3ffe008e517e8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7eb81a77d96e62ecda67f5a568d996d') in 0.033830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/GlassesMaterial.mat
+  artifactKey: Guid(5a68483ba9764354ead16db19e43947b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/GlassesMaterial.mat using Guid(5a68483ba9764354ead16db19e43947b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df987642568b213254f96b26f133faea') in 0.005577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/Glow.mat
+  artifactKey: Guid(1951f82f59d03f840ab348ba47fe4123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/Glow.mat using Guid(1951f82f59d03f840ab348ba47fe4123) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7d6e943dbf6ffe3b60f4c8253a5fda3') in 0.005736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen02.jpg
+  artifactKey: Guid(f160348cac8b9db40ae286f6cf0981ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen02.jpg using Guid(f160348cac8b9db40ae286f6cf0981ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb8ceb92df20dcbedde418ace49f17e') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen29.jpg
+  artifactKey: Guid(1999ea5a562968846af91228d250b095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen29.jpg using Guid(1999ea5a562968846af91228d250b095) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '556cba6e83f4f8b105921eeeadee95a1') in 0.026825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen19.jpg
+  artifactKey: Guid(a67f8f2333730e94b8f305e9b8112a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen19.jpg using Guid(a67f8f2333730e94b8f305e9b8112a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18313d76b8b978c102d1b03f99ec9c4c') in 0.021327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen08.jpg
+  artifactKey: Guid(1429a7bd5cce78e4984143bef9c49a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen08.jpg using Guid(1429a7bd5cce78e4984143bef9c49a35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dda4d25d953ff3bd086f399c67b745e0') in 0.021045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomTrim.mat
+  artifactKey: Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomTrim.mat using Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '702766292e1bcc9938a75760a09dd6ff') in 0.006709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen27.jpg
+  artifactKey: Guid(2f5b531c2d93df645b3abff0f0197487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen27.jpg using Guid(2f5b531c2d93df645b3abff0f0197487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1eb6e60954c1fe78936d38ea0a45dc62') in 0.019634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomSecurityGate.mat
+  artifactKey: Guid(268ea185a9855d647be0c7af6b9c4bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomSecurityGate.mat using Guid(268ea185a9855d647be0c7af6b9c4bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68775f88bad2b512a88538bbe08c808a') in 0.007302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomCautionSign.mat
+  artifactKey: Guid(09ac45fa148050f418a9e72e8ee5b486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomCautionSign.mat using Guid(09ac45fa148050f418a9e72e8ee5b486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5333a024872695f7cd801bedc9dce81') in 0.009264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen06.jpg
+  artifactKey: Guid(822685cc96a73e4499fc770fcae5b264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen06.jpg using Guid(822685cc96a73e4499fc770fcae5b264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25a51212ccfe6919fc869c7684da25e5') in 0.019225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen38.jpg
+  artifactKey: Guid(91934fe1864cd75439ad27e4bdda02e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen38.jpg using Guid(91934fe1864cd75439ad27e4bdda02e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e80b79ee492cda51e8ad3918b1681e5') in 0.021560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen04.jpg
+  artifactKey: Guid(00deaf26506364c49afb29da95188293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen04.jpg using Guid(00deaf26506364c49afb29da95188293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a6c033716c72fc64d98b389567a615e') in 0.019629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen21.jpg
+  artifactKey: Guid(f4e99a06510b3f34a95d615c1779e3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen21.jpg using Guid(f4e99a06510b3f34a95d615c1779e3d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c61d6989e1b6be9ad30ae8b48647f8d') in 0.015416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen20.jpg
+  artifactKey: Guid(1ce54dfe78fdd014ea7a810de468bb1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen20.jpg using Guid(1ce54dfe78fdd014ea7a810de468bb1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25431fefe6e30d61dd304cbf3b3a5966') in 0.016808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomElevator.mat
+  artifactKey: Guid(46e414f0c99a5a84ba321fc49d6fb413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomElevator.mat using Guid(46e414f0c99a5a84ba321fc49d6fb413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '286b0b63b3a514f332ac938bf00b75ed') in 0.005841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsRed.mat
+  artifactKey: Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsRed.mat using Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0a5aee8dfd4399d0b27d24c44a069ad') in 0.010244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen36.jpg
+  artifactKey: Guid(735af51b6711a654282899dfd1a4ffca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen36.jpg using Guid(735af51b6711a654282899dfd1a4ffca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '130dede75fc11255b4d13d737f736be5') in 0.016205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen39.jpg
+  artifactKey: Guid(9f8052982c021e5469e1f532f9b944ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen39.jpg using Guid(9f8052982c021e5469e1f532f9b944ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53e10c9180dcb710d24fc1cc3295119d') in 0.018191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen26.jpg
+  artifactKey: Guid(fdbd020453eaaca42b17f5639797ac46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen26.jpg using Guid(fdbd020453eaaca42b17f5639797ac46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '687a040c393d5917e9a1707177b26e62') in 0.019980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen31.jpg
+  artifactKey: Guid(28e7865eda8d1924b95b8e990ae68652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen31.jpg using Guid(28e7865eda8d1924b95b8e990ae68652) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2060f35bba7b40e1558ac2bec6a2f204') in 0.019119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/BirdAlbedo.png
+  artifactKey: Guid(d4c5bab927c0d88449ff03ca4dc38a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/BirdAlbedo.png using Guid(d4c5bab927c0d88449ff03ca4dc38a2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ccc86534e7afec88a92d633c0a06c55') in 0.016301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen34.jpg
+  artifactKey: Guid(6b4f2256a6db01e4f88196c8e85a1e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen34.jpg using Guid(6b4f2256a6db01e4f88196c8e85a1e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eeda4e9be3f5c7948b563e0588b2aea') in 0.017905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallVents.mat
+  artifactKey: Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallVents.mat using Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aa2d00df667ea10594df67a3f5994c45') in 0.006181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat
+  artifactKey: Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat using Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95ed43b47b638dc751570013668967b4') in 0.006157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsGrey.mat
+  artifactKey: Guid(c663c1ef3240d9b419354431013f17fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomWallsGrey.mat using Guid(c663c1ef3240d9b419354431013f17fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91f8a1f5d3fe73e87213d7c4bf78b134') in 0.007175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomFloor.mat
+  artifactKey: Guid(6f66348a4070a4c4fb04de32986786c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomFloor.mat using Guid(6f66348a4070a4c4fb04de32986786c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e50cec3f15ff713fea47df204fe4642b') in 0.006623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/SecurityRoom/Lightmap-0_comp_light.exr
+  artifactKey: Guid(846dc741483fa4c4c94dff177224fda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scenes/SecurityRoom/Lightmap-0_comp_light.exr using Guid(846dc741483fa4c4c94dff177224fda1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f368393fdd7d8abe12455ed69e668380') in 0.016732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/Market/NavMesh.asset
+  artifactKey: Guid(98b9c93af4ba5f24d823a1c6f098d0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scenes/Market/NavMesh.asset using Guid(98b9c93af4ba5f24d823a1c6f098d0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc8466ff7fea481efd94ee6d122eb84d') in 0.006271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen32.jpg
+  artifactKey: Guid(fd9f9681fe2710240bc3524596797386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen32.jpg using Guid(fd9f9681fe2710240bc3524596797386) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4496ecad344337859c5366ef75582ed') in 0.017588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/ResettableScriptableObject.cs
+  artifactKey: Guid(36d057bb7ad6d5c4e9e6cdfda5ba8d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/ResettableScriptableObject.cs using Guid(36d057bb7ad6d5c4e9e6cdfda5ba8d70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78e85a6d46ee9776992f1ee47c10f5ac') in 0.004138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scenes/Market/MarketLightmapParameter.giparams
+  artifactKey: Guid(960df0195dd11f948ab2c803eda026c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scenes/Market/MarketLightmapParameter.giparams using Guid(960df0195dd11f948ab2c803eda026c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32c4ad856e876cd6cf5cae639e4d514a') in 0.004791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen16.jpg
+  artifactKey: Guid(1827904c17385ba45846c01c4a320181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen16.jpg using Guid(1827904c17385ba45846c01c4a320181) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6f1b9690f39b88066a426dc2f4c4b9a') in 0.020596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen33.jpg
+  artifactKey: Guid(e7c313c128b458341877e26806ef19b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen33.jpg using Guid(e7c313c128b458341877e26806ef19b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '970ee1eaf6768b24836a9b87dba2bcc6') in 0.016360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat
+  artifactKey: Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat using Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb3b0a5b868f1c6a434235f41fb6cb66') in 0.007683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen17.jpg
+  artifactKey: Guid(7ac88b6a9c611154da0765a0ee9141a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen17.jpg using Guid(7ac88b6a9c611154da0765a0ee9141a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b0bf0ac6ce25a53c3f32ff7c725c1cc') in 0.014172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/DataPersistence/RotationSaver.cs
+  artifactKey: Guid(c013938965f4c6249aa76a79195cfb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/DataPersistence/RotationSaver.cs using Guid(c013938965f4c6249aa76a79195cfb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92c962970e3f8353d647f32f2ab3087e') in 0.003886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/CustomerAlbedo.png
+  artifactKey: Guid(ed3ecf4e3f4511149b63bd68105d0bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/CustomerAlbedo.png using Guid(ed3ecf4e3f4511149b63bd68105d0bba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a92cb745b0eb5d75b06d0e781f2fd9ed') in 0.017601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/CoffeeBot/CoffeeBotHeresYourCoffee.ogg
+  artifactKey: Guid(ba1f7288a86b84b2d8629e05dfd3c48c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/CoffeeBot/CoffeeBotHeresYourCoffee.ogg using Guid(ba1f7288a86b84b2d8629e05dfd3c48c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d12c3193a3a3242a84c78bc94802560') in 0.055217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Guard/GuardGoThrough.ogg
+  artifactKey: Guid(d786774c25f284b79bcda64a1571c979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Guard/GuardGoThrough.ogg using Guid(d786774c25f284b79bcda64a1571c979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acf51e4acc9a436b536864d8fdc491bd') in 0.062331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionCollectionEditor.cs
+  artifactKey: Guid(30f7e12577cd4e6418d94e7ba9d24951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionCollectionEditor.cs using Guid(30f7e12577cd4e6418d94e7ba9d24951) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f00b9534c8e07713ca7c30e4e4b920c2') in 0.003621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Inventory/Inventory.cs
+  artifactKey: Guid(46d8bad6f895a8f468f8f52259447a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Inventory/Inventory.cs using Guid(46d8bad6f895a8f468f8f52259447a65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b221c5fad117280d6915d99877315a43') in 0.003837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerNoMoreCoins.ogg
+  artifactKey: Guid(ae424b24e594048429a4a2bed2eeb897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerNoMoreCoins.ogg using Guid(ae424b24e594048429a4a2bed2eeb897) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67af3482b66fbd6c0d8718bd4e9daeec') in 0.050384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/marketPriceTagsAlbedo.tif
+  artifactKey: Guid(ec108ead4d2d71642a7f3bc5981f9726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/marketPriceTagsAlbedo.tif using Guid(ec108ead4d2d71642a7f3bc5981f9726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bbb041ffc5cca1850ebb7f001bf1bcc') in 0.014401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerBirdIsGone.ogg
+  artifactKey: Guid(0bcb52a0dc8524b40a4a97ccc1e4cef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerBirdIsGone.ogg using Guid(0bcb52a0dc8524b40a4a97ccc1e4cef6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b20abb8815dcf40f883e7ac81322d78') in 0.056620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerPickUpCoin.ogg
+  artifactKey: Guid(e1947d026bceb4d6fbfd792153287c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerPickUpCoin.ogg using Guid(e1947d026bceb4d6fbfd792153287c04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4b6d9d6cdb92d5b26a4e17369e2516a') in 0.050438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/TextManager.cs
+  artifactKey: Guid(665c5517814b70d42953f2e52a0dc79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/TextManager.cs using Guid(665c5517814b70d42953f2e52a0dc79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7353fa7fec971032089324a0377a0f38') in 0.003590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketDustBinAlbedo.tif
+  artifactKey: Guid(0653821625ae27441ad6b9ab8e80ee9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketDustBinAlbedo.tif using Guid(0653821625ae27441ad6b9ab8e80ee9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a3598204387a4807bceb970477cd6ce') in 0.015350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Inventory/Item.cs
+  artifactKey: Guid(2f67bd8ec6e33af4987562f6141a3bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Inventory/Item.cs using Guid(2f67bd8ec6e33af4987562f6141a3bf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f780c04d2310201156f2e845639d1b5d') in 0.003318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/Fly.png
+  artifactKey: Guid(4944c65a03c70b54a9c2b020aaaae283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/Fly.png using Guid(4944c65a03c70b54a9c2b020aaaae283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72b05a6d3690d5a450c43aa670caae18') in 0.021044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/GuardAlbedo.png
+  artifactKey: Guid(d636c4f5a57f26746a6b131f4ae5c090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Characters/GuardAlbedo.png using Guid(d636c4f5a57f26746a6b131f4ae5c090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b27ce81fc93fc09d15599e9d9679d2a9') in 0.015803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketStallsAlbedo.tif
+  artifactKey: Guid(2b20a8f7be0b0d64f9f4fa63b1365207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketStallsAlbedo.tif using Guid(2b20a8f7be0b0d64f9f4fa63b1365207) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a69d24da47db1f1e2a96ef29d45f9cb5') in 0.015683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerDoNotWantMoreFish.ogg
+  artifactKey: Guid(d27de579b328a44a2a102d519fcdd38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Player/PlayerDoNotWantMoreFish.ogg using Guid(d27de579b328a44a2a102d519fcdd38b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0bdea8778405a87fbb8777397eab1ee') in 0.063821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/Interactable.cs
+  artifactKey: Guid(d85941078afdf3244b2a1ae50fea256c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/Interactable.cs using Guid(d85941078afdf3244b2a1ae50fea256c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8746001491911ab51f8efbd63f4b528') in 0.003054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketPotsAlbedo.tif
+  artifactKey: Guid(e23a337c1363258479422f2d385dbff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketPotsAlbedo.tif using Guid(e23a337c1363258479422f2d385dbff2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19efe59f936e473e355f786dea03059c') in 0.017009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketSecurityDoorAlbedo.tif
+  artifactKey: Guid(716f870002e41434e9d0c706f84bfb42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketSecurityDoorAlbedo.tif using Guid(716f870002e41434e9d0c706f84bfb42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '61448ede0ffd59b50c577462bcad5e34') in 0.018883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif
+  artifactKey: Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketVendingMachineGlassAlbedo.tif using Guid(6da39cb2fe8f79b40ac48cb35d42deff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49943e053ade12e028da5a24452b2f0d') in 0.017948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/AnimationReactionEditor.cs
+  artifactKey: Guid(8efd0f8dae335f648a5e378151c4ffde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/AnimationReactionEditor.cs using Guid(8efd0f8dae335f648a5e378151c4ffde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '602a875c7a34410feacdfb7fbe4d8ce0') in 0.003647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/ImmediateReactions/AudioReaction.cs
+  artifactKey: Guid(2392585f8a4e53a42a0ddc8de25e64d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/ImmediateReactions/AudioReaction.cs using Guid(2392585f8a4e53a42a0ddc8de25e64d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18b402f0d0f1f50d952f816719d76402') in 0.007884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Abstracts/DelayedReaction.cs
+  artifactKey: Guid(b077babc2a21bfc4a9d4f1494b20a391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Abstracts/DelayedReaction.cs using Guid(b077babc2a21bfc4a9d4f1494b20a391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6ff1e09bf4f18f28fe5ef56f3241bc1') in 0.004012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/Conditions/ConditionCollectionEditor.cs
+  artifactKey: Guid(d16670cda04bce94fa9d82405b13e469) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/Conditions/ConditionCollectionEditor.cs using Guid(d16670cda04bce94fa9d82405b13e469) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59b92e5593bd67940b37f4747df48877') in 0.004833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomPotPlantAlbedo.tif
+  artifactKey: Guid(f3973d4f9270bb540926dfdcd84abc61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomPotPlantAlbedo.tif using Guid(f3973d4f9270bb540926dfdcd84abc61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0416fab3388ada3b8212f8fec0fc09c') in 0.015920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/PickedUpReactionEditor.cs
+  artifactKey: Guid(51f64283da13d454eac85754dd480711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/PickedUpReactionEditor.cs using Guid(51f64283da13d454eac85754dd480711) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e7225e3ee4f588f9ee71d1a547bda6f') in 0.003676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/BehaviourReactionEditor.cs
+  artifactKey: Guid(0c8f72496399164499345ad951a2b653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/BehaviourReactionEditor.cs using Guid(0c8f72496399164499345ad951a2b653) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af8d82d1dfef5d127d7d09c3c629f62b') in 0.003576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Abstracts/EditorWithSubEditors.cs
+  artifactKey: Guid(32ffb103c29c5ce4e9b849c36e35b140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Abstracts/EditorWithSubEditors.cs using Guid(32ffb103c29c5ce4e9b849c36e35b140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '342898a8a29e67d75655ce29b21c8b3a') in 0.003979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Extensions/SerializedPropertyExtensions.cs
+  artifactKey: Guid(0cf8878c8d3ee2d4b94b7eabb5cf96d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Extensions/SerializedPropertyExtensions.cs using Guid(0cf8878c8d3ee2d4b94b7eabb5cf96d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0428207df96444ad2ed482e1261d749') in 0.003676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketOldTechAlbedo.tif
+  artifactKey: Guid(7bfe29dd2e7b2994cbb29d1435e09dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketOldTechAlbedo.tif using Guid(7bfe29dd2e7b2994cbb29d1435e09dd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b4e398c781e6c02bc50a6c85d8a87c6') in 0.016997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/ReactionCollection.cs
+  artifactKey: Guid(1fc7ecfe98531f2429694b8c81a6748a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/Interaction/ReactionCollection.cs using Guid(1fc7ecfe98531f2429694b8c81a6748a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c37d69e67c1835a272c590d6465d782c') in 0.003394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/GameObjectReaction.cs
+  artifactKey: Guid(80c32f1270758a64ba4bc71dbf7e498b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/GameObjectReaction.cs using Guid(80c32f1270758a64ba4bc71dbf7e498b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9084ee6c47459141210f486c2ddc5a7') in 0.003529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketFloorTileSandAlbedo.tif
+  artifactKey: Guid(90d75d244446a9644888b0a0305f81f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketFloorTileSandAlbedo.tif using Guid(90d75d244446a9644888b0a0305f81f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a36d74ff05ad20482661ad642640d0d6') in 0.017401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketChairsAlbedo.tif
+  artifactKey: Guid(0eda8cae9332c4a4481756329bf839cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketChairsAlbedo.tif using Guid(0eda8cae9332c4a4481756329bf839cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b09ef792f4fe47165d3b733ccba5ce34') in 0.017646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/LostItemReaction.cs
+  artifactKey: Guid(2d482a9551d8b074097fdb7beded4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/LostItemReaction.cs using Guid(2d482a9551d8b074097fdb7beded4043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bbdcad20d145c3bf8f7c2c9c769df1ed') in 0.003294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketBollardAlbedo.tif
+  artifactKey: Guid(6cd25c186583cb645b60527f7d53e7c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketBollardAlbedo.tif using Guid(6cd25c186583cb645b60527f7d53e7c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '112f7775d51706b1125b126cccf9f46c') in 0.017977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketAirconAlbedo.tif
+  artifactKey: Guid(4f6289a78d017ac4b932e0d8ce9e30d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketAirconAlbedo.tif using Guid(4f6289a78d017ac4b932e0d8ce9e30d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e72818b7d2eb3160c0c0847798d4029') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Walk.fbx
+  artifactKey: Guid(b1a5e04ae51004842aba06704a6c2903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Walk.fbx using Guid(b1a5e04ae51004842aba06704a6c2903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b3a895221aa9bbf6fbead49f71626f') in 0.061544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/AnimationReaction.cs
+  artifactKey: Guid(a931d1c243b462c46bad5f7d2aae5949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Reactions/DelayedReactions/AnimationReaction.cs using Guid(a931d1c243b462c46bad5f7d2aae5949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9f324e16d6ff146540c5752479978c6') in 0.004300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/LightGradient.psd
+  artifactKey: Guid(836ae3c2ccd31da49a1095ab1e5e2ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/LightGradient.psd using Guid(836ae3c2ccd31da49a1095ab1e5e2ccc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bc10f2abcc9a3080e7ac81aaf0c9b3a') in 0.017967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Idle.fbx
+  artifactKey: Guid(c61460273d36d0b4e936b68977241e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Animations/Player/Idle.fbx using Guid(c61460273d36d0b4e936b68977241e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f04cb984adff2fe00d51c9834f81ef06') in 0.061226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomPotPlantLeafAlbedo.tif
+  artifactKey: Guid(8c0c59bb72ed75f4b8367be71a3d415d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomPotPlantLeafAlbedo.tif using Guid(8c0c59bb72ed75f4b8367be71a3d415d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58144aa39620f6279876513794951e70') in 0.013965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomWallsRedAlbedo.tif
+  artifactKey: Guid(078d4e29587559e4398f3c48f807b460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomWallsRedAlbedo.tif using Guid(078d4e29587559e4398f3c48f807b460) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '983adb0375e7697f2e530421cae1e89a') in 0.018473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCoffeeTableAlbedo.tif
+  artifactKey: Guid(e21b277404a88484fb71fc7cec998681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCoffeeTableAlbedo.tif using Guid(e21b277404a88484fb71fc7cec998681) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb141507cf05704d60ea367397df73b5') in 0.015328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomScreenImageAlbedo.tif
+  artifactKey: Guid(6242e1bd02709584b8bdd22e2f1e512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomScreenImageAlbedo.tif using Guid(6242e1bd02709584b8bdd22e2f1e512c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1007828ee429382afe04e06d8e717f9') in 0.013634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Conditions/AllConditions.cs
+  artifactKey: Guid(a54f0fecf5593d84985bdc0adae0cbbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/ScriptableObjects/Interaction/Conditions/AllConditions.cs using Guid(a54f0fecf5593d84985bdc0adae0cbbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5846c3d18402f9aede529037e004c9d8') in 0.005466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/Conditions/AllConditionsEditor.cs
+  artifactKey: Guid(350a826281427894e9cee38c2cadf547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/Conditions/AllConditionsEditor.cs using Guid(350a826281427894e9cee38c2cadf547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '404c9e3ccb026cd4c0accdd37ea4920e') in 0.004507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/HologGramLight02.tif
+  artifactKey: Guid(3ff46e219d5799141b9219e49e43e79f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/HologGramLight02.tif using Guid(3ff46e219d5799141b9219e49e43e79f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a43508d5b5bde606c7908a7ed26e76') in 0.014581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/LostItemReactionEditor.cs
+  artifactKey: Guid(ef73e701c8534fb4bb106acfddc80ab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/LostItemReactionEditor.cs using Guid(ef73e701c8534fb4bb106acfddc80ab3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19a8fabe9f33c868523ab901be7f0fcb') in 0.003721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCautionSignAlbedo.tif
+  artifactKey: Guid(9cfe860617d31b14aae53c5ab61a483c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCautionSignAlbedo.tif using Guid(9cfe860617d31b14aae53c5ab61a483c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0951df1869293ea1416cad376214fe6') in 0.020958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketWallStoneAlbedo.tif
+  artifactKey: Guid(9297a9fd8cd107445bb53365671f2576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketWallStoneAlbedo.tif using Guid(9297a9fd8cd107445bb53365671f2576) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e85fb591ac058799bee3366d9820d43') in 0.016629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/TextReactionEditor.cs
+  artifactKey: Guid(586f5dcecd12036408906efc5693f17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/TextReactionEditor.cs using Guid(586f5dcecd12036408906efc5693f17d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb9a279eec51b77fc0036fcc2b1cce51') in 0.003686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketSmallTableAlbedo.tif
+  artifactKey: Guid(a6511214d0d3cb54f801712341a6289c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketSmallTableAlbedo.tif using Guid(a6511214d0d3cb54f801712341a6289c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a4f5b623adad360619577f9fe775b4d') in 0.019533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Guard/GuardGoGetCoffee.ogg
+  artifactKey: Guid(707d533b18a364142897701cc3b4027e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/VoiceOver/Guard/GuardGoGetCoffee.ogg using Guid(707d533b18a364142897701cc3b4027e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cca6e678bc1effb27770470aa09ccfc') in 0.050571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/DataPersistence/DataResetter.cs
+  artifactKey: Guid(53c91b699634ffb4d8adb3f3393588e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/MonoBehaviours/DataPersistence/DataResetter.cs using Guid(53c91b699634ffb4d8adb3f3393588e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12b59a3fd9cbcd3ec0f7e911303fcab7') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomSecurityGateAlbedo.tif
+  artifactKey: Guid(49d25d1acab51f14d9027f34709789b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomSecurityGateAlbedo.tif using Guid(49d25d1acab51f14d9027f34709789b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c810004e7e5ffde45f0294ee0559123e') in 0.020072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/ReactionEditor.cs
+  artifactKey: Guid(9369ef77b78dfbf49badc674d75125dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/ReactionEditor.cs using Guid(9369ef77b78dfbf49badc674d75125dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '822743309177c4240d87fc63b05ef804') in 0.003707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCompanyLogoAlbedo.tif
+  artifactKey: Guid(84ebeb3e2147ad8428f2e0aa3444a8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCompanyLogoAlbedo.tif using Guid(84ebeb3e2147ad8428f2e0aa3444a8b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5bf4c959800d145beae3b25319132a13') in 0.014201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/ConditionReactionEditor.cs
+  artifactKey: Guid(c267e6d7c88ecbc4db66bd706f8d5c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Interaction/ReactionEditors/ConditionReactionEditor.cs using Guid(c267e6d7c88ecbc4db66bd706f8d5c78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1cdb4cbf2ced933ea1fe377194aaf8a') in 0.005587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Inventory/InventoryEditor.cs
+  artifactKey: Guid(18c91db4d342c3849a88f1eb149e9bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Scripts/Editor/Inventory/InventoryEditor.cs using Guid(18c91db4d342c3849a88f1eb149e9bef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd3bb75f2b31d476c43d74964fd0e7d9') in 0.004074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomMagazinesAlbedo.tif
+  artifactKey: Guid(a126be43b2bd96142b7807d850762677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomMagazinesAlbedo.tif using Guid(a126be43b2bd96142b7807d850762677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9771d518b9db86fb70ee65469d8c5bbc') in 0.015495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen37.jpg
+  artifactKey: Guid(31c9236435db09a46b1830c0bc85b750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen37.jpg using Guid(31c9236435db09a46b1830c0bc85b750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2099375864c15e98707bd85b5551e3e0') in 0.016573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/HologGramLight.tif
+  artifactKey: Guid(5177705080969544fae59c61774ac145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/HologGramLight.tif using Guid(5177705080969544fae59c61774ac145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afa4e2f6b5f36280311f78ae42210c2f') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen13.jpg
+  artifactKey: Guid(a4f9ea00a952af54296a8615a4a827e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Sprites/ScreenSequence/Screen13.jpg using Guid(a4f9ea00a952af54296a8615a4a827e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8876260e11308dd25b5cb3b767730221') in 0.014130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketAirconDustyAlbedo.tif
+  artifactKey: Guid(e0a211eebe68147499136790d8011a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/Market/MarketAirconDustyAlbedo.tif using Guid(e0a211eebe68147499136790d8011a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a226a21a600cff41678049ddc40372c9') in 0.016071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCarpetAlbedo.tif
+  artifactKey: Guid(8e6beecbd339c3e479bd3b2964cdc9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/Textures/Environment/SecurityRoom/SecurityRoomCarpetAlbedo.tif using Guid(8e6beecbd339c3e479bd3b2964cdc9df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0a6fb6cbd0ad99cc4a8ff147a9a7b84') in 0.018831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/AccessDenied.ogg
+  artifactKey: Guid(20b36408ef0bfce45b7d4010cc76e7de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Unity Technologies/Adventure - Sample Game/AudioClips/FX/AccessDenied.ogg using Guid(20b36408ef0bfce45b7d4010cc76e7de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c70ec98e122726f7162076f6d534d0f6') in 0.058914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
