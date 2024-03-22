@@ -1,3 +1,6 @@
 week7/Assets/DreamForestTree/Materials/ClearSky.psd filter=lfs diff=lfs merge=lfs -text
 week7/Assets/DreamForestTree/_HDRP[[:space:]]patch/DreamTreesHDRP.unitypackage filter=lfs diff=lfs merge=lfs -text
 week7/Assets/DreamForestTree/_URP[[:space:]]patch/DreamTreesURP.unitypackage filter=lfs diff=lfs merge=lfs -text
+Final[[:space:]]Project/Assets/Import/DreamForestTree/Materials/ClearSky.psd filter=lfs diff=lfs merge=lfs -text
+Final[[:space:]]Project/Assets/Import/DreamForestTree/_HDRP[[:space:]]patch/DreamTreesHDRP.unitypackage filter=lfs diff=lfs merge=lfs -text
+Final[[:space:]]Project/Assets/Import/DreamForestTree/_URP[[:space:]]patch/DreamTreesURP.unitypackage filter=lfs diff=lfs merge=lfs -text
